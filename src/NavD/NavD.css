@@ -1,0 +1,185 @@
+.imgfed {
+    width: 390px;
+    height: 217px;
+}
+
+.title {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 12px;
+}
+
+.dash1 {
+    position: absolute;
+    margin-top: 5px;
+    height: 34px;
+    margin-left: 18px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.porsa {
+    margin-top: 27px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.btngit {
+    left: 410px;
+    background: #142850;
+    border-radius: 16px;
+    color: aliceblue;
+    border: none;
+}
+
+
+@media screen and (width:576px) {
+    .imgfed {
+        width: 301px;
+        height: 247px;
+        margin-left: -41px;
+    }
+    .otang {
+        margin-top: 40px;
+    }
+    
+    .fut {
+        text-align: center;
+    }
+    
+    .nimadur h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+        margin-right: -420px;
+        width: 300px;
+margin-left: 300px;
+    }
+    
+    .porsa {
+        text-align: center;
+        width: 199px;
+        display: flex;
+        justify-content: center;
+        margin-left: 225px;
+    }
+    
+    .btngit {
+        margin: 15px 0px 0px 252px;
+    }
+    
+    .nimadur {
+        /* margin-right: -70px; */
+        overflow-x: hidden;
+    }
+    
+    @media screen and (max-width:768px) {
+        .imgfed {
+            width: 340px;
+            height: 247px;
+            margin-left: -41px;
+        }
+        #dost {
+            display: flex;
+        }
+    
+        .otang {
+            margin-top: 40px;
+        }
+    
+        .fut {
+            text-align: center;
+        }
+    
+        .nimadur h1 {
+            font-size: 24px;
+            text-align: center;
+            margin: auto;
+            margin-right: -420px;
+            width: 300px;
+            margin-left: 224px;
+        }
+        
+        .porsa {
+            text-align: center;
+            width: 299px;
+            display: flex;
+            justify-content: center;
+            margin-left: 225px;
+        }
+        
+        .btngit {
+            margin: 15px 0px 0px 252px;
+        }
+    
+        .nimadur {
+            margin-right: -70px;
+            overflow-x: hidden;
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+    
+        #dost {
+            margin-left: 38px;
+            display: flex;
+        }
+    
+        .nimadur h1 {
+            font-size: 24px;
+            text-align: center;
+            margin: auto;
+            margin-right: -367px;
+            width: 473px;
+            margin-left: 195px;
+        }
+    
+        .dash1 {
+    
+            margin: 0px 0px 0px 30px;
+            text-decoration: none;
+            display: flex;
+        }
+    
+        .btngit {
+            margin: auto;
+            margin: 15px 0px 0px 280px;
+            width: 100px;
+            height: 35px;
+            font-size: 20px;
+        }
+    
+        .porsa {
+            text-align: center;
+            width: 397px;
+            display: flex;
+            justify-content: center;
+            margin-left: 245px;
+        }
+    
+    
+        .dash1 {
+            margin-top: -31px;
+            margin-left: 407px;
+            width: 200px;
+            font-size: 20px;
+            display: flex;
+        }
+    
+        .nimadur {
+            margin-right: -70px;
+            overflow-x: hidden;
+        }
+    }
+    
+}

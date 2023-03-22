@@ -1,0 +1,92 @@
+.gap {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 30px;
+}
+
+.copy {
+    margin-top: 30px;
+    text-align: center;
+    width: 350px;
+
+}
+
+.icons {
+    text-align: center;
+    margin: auto;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+.comment {
+    display: grid;
+}
+
+.bootton {
+    display: grid;
+    margin-right: -30px;
+}
+
+
+.bosh {
+    margin-left: 440px;
+}
+
+@media screen and (max-width:1024px) {
+    .bosh{
+        margin-left: 301px;
+        overflow-x: hidden;
+        
+    }
+
+    .copyright {
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #fodrs {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .gap{
+        width: 341px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .copyright {
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        overflow-x: hidden;
+
+    }
+
+    #fodrs {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .bosh {
+        margin-left: 0px;
+        overflow-x: hidden;
+
+    }
+    .gap{
+        width: 341px;
+        overflow-x: hidden;
+
+    }
+}

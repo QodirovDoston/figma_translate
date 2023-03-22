@@ -1,0 +1,177 @@
+.card {
+    width: 520px;
+    border: none !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+#blog {
+    width: 100%;
+    height: 426px !important;
+    left: 0px;
+    margin-top: 95px;
+    background: #EDF7FA;
+}
+
+.recend {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+
+}
+
+.view {
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    margin-right: -100px;
+}
+
+.yil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.make {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    width: 400px;
+    margin: 24px 21px 20px 23px;
+}
+
+.yil h4 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin: 24px 21px 20px 23px;
+    display: flex;
+    align-items: center;
+
+}
+.poragrow {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin: 24px 21px 20px 23px;
+
+}
+
+@media screen and (max-width:1024px) {
+    .post {
+        display: grid;
+        flex-wrap: wrap;
+    }
+        
+        .card {
+            width: 359px
+        }
+        
+        .make {
+            width: 293px;
+        }
+        
+        .card {
+            width: 340px;
+            margin-left: -30px;
+        }
+        
+        .view {
+            margin-right: 0px;
+        }
+        
+        #blog {
+            width: 100%;
+            height: 526px;
+            left: 0px;
+            margin-top: 95px;
+            background: #EDF7FA;
+        }
+        
+    }
+    @media screen and (width:768px) {
+        .card {
+            width: 340px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .recend {
+            margin-left: 180px;
+        }
+        
+        .view {
+            margin-right: 180px;
+        }
+    }
+    
+    #blog {
+        width: 100%;
+        height: 946px;
+        left: 0px;
+        margin-top: 95px;
+        background: #EDF7FA;
+    }
+    
+    
+    @media screen and (max-width:576px) {
+        .card {
+            width: 340px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        #blog {
+            width: 100%;
+            height: 916px;
+            left: 0px;
+            background: #EDF7FA;
+        }
+        
+        .make {
+            width: 288px;
+        }
+        
+        .sana {
+            display: flex;
+            
+            width: 200px;
+        }
+        
+        .design {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .view {
+            margin-right: 50px;
+        }
+        
+        .recend {
+            margin-left: 80px;
+        }
+        
+    }
