@@ -9,6 +9,7 @@ import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 import { Backdrop, CircularProgress } from '@mui/material';
 
+
 const NavbarpageD = () => {
 
 
@@ -55,7 +56,7 @@ const NavbarpageD = () => {
                     </Backdrop>
 
                     <NavDropdown.Item onClick={() => handlClick("rus")} href="#action/3.2"> <li onClick={handleToggle}>Ru</li>  </NavDropdown.Item>
-                      
+
                     <Backdrop
                       sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
                       open={open}
